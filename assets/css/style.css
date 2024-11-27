@@ -1,0 +1,202 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+.banner {
+    background-image: var(--shadow-bg), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+    border-bottom: 1px solid var(--blue-one);
+    padding: 50px 15px 75px;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    background: #00000033;
+    border-radius: 50%;
+    height: 248px;
+    max-width: 248px;
+    margin-bottom: 16px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: var(--gradient-color-title);
+    background-clip: text;
+    margin-bottom: 16px;
+}
+
+.banner p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    max-width: 530px;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.banner button {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18px;
+    color: var(--blue-two);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border-color: var(--border-color-button);
+    border-width: 2px;
+    border-style: solid;
+    max-width: 320px;
+    width: 100%;
+}
+
+#course-content {
+    padding: 100px 15px;
+    background: var(--bg-main);
+}
+
+#course-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 4.5px;
+    color: var(--blue-one);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#course-content p {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.modules-list {
+    max-width: 535px;
+    width: 100%;
+    margin: auto;
+}
+
+.modules-list .module {
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    border: 1px solid #33ABDB;
+    background: #252525;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.modules-list .module:last-child {
+    margin-bottom: 0;
+}
+
+.modules-list .module span {
+    color: #33ABDB;
+}
+
+#transform-world {
+    background-image: var(--shadow-bg-2), url('../images/woman-code.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    border: solid #33A8DB;
+    border-width: 1px 0;
+}
+#transform-world p {
+    font-size: 40px;
+    color: #FFF;
+    line-height: 47px;
+    font-weight: 900;
+    text-shadow: 3px 2px 0 #33ABDB;
+    text-transform: lowercase;
+    max-width: 250px;
+    margin-left: 200px;
+}
+#professional-challenges {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#professional-challenges h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #33ABDB;
+    max-width: 750px;
+    margin-top: 75px;
+    margin-bottom: 35px;
+}
+#professional-challenges p {
+    margin-top: 40px;
+    margin-bottom: 90px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFF;
+    max-width: 800px;
+}
+footer {
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 15px 40px;
+}
+footer img {
+    margin-bottom: 10px;
+}
+footer p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF;
+}
+footer p a {
+    color: #33A8DB;
+    font-weight: 700;
+}

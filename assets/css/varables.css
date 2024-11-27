@@ -1,0 +1,11 @@
+:root {
+    --bg-main: #000000;
+    --bg-secondary: #252525;
+    --blue-one: #33A8DB;
+    --blue-two: #31A8DD;
+    --white: #FFFFFF;
+    --gradient-color-title: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    --border-color-button: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    --shadow-bg: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0.2) 100%);
+    --shadow-bg-2: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.80) 100%);
+}
